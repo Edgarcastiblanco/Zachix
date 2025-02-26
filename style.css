@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(249, 201, 161), rgba(251, 102, 3, 0.826));
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+    
+}
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider section {
+    min-width: 100%;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+button {
+    margin-top: 190px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.catalogo {
+    text-align: left;
+    margin-top: 70px;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .producto {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .producto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
